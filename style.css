@@ -1,0 +1,388 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face{
+	font-family: "rokkitt-regular";
+	src:url('font/Rokkitt-Regular.ttf');
+	font-style:normal;
+	font-weight:normal;
+}
+
+@font-face{
+	font-family: "rokkitt-blod";
+	src:url('font/Rokkitt-Bold.ttf');
+	font-style:normal;
+	font-weight:normal;
+}
+
+
+
+#container{
+	margin:80px;
+	padding-top: 0px;
+	padding-bottom: 10px;	
+	/*background-color: #fdc2db;*/
+	box-shadow: 0 0 3px #58585a;
+	color: black;
+	
+	/*background-color: #fdc2db;*/
+	
+}
+
+#container .header{
+	font-weight: normal;
+	text-align: center;
+	font-family: rokkitt-regular;
+	color: black;
+	
+}
+}
+
+left{
+	font-family: rokkitt-regular;
+	padding-left: 500px;
+	word-spacing: 10px;
+	padding-top: 50px;
+	margin: 60px;
+	font-size: 40px;
+}
+a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	padding-left: 40px
+}
+a:hover{
+	display: inline-block;
+	color: white	;
+	text-decoration: none;
+}
+u{
+	word-spacing: 1px;
+	text-decoration: none;
+}
+center{
+	font-weight: normal;
+	font-family: rokkitt-regular;
+	font-size: 50px;
+	float: center;
+
+}
+h1{
+	font-size: 20px;
+	font-family: rokkitt-regular;
+	font-weight: normal;	
+
+}
+
+.button{
+	font-family: rokkitt-regular;
+	background-image: url(mobile-legends-epic-comeback2.jpg);
+}
+
+ye{
+	font-family: rokkitt-regular;
+	font-weight: bold;
+	display: inline-block;
+}
+
+
+#about .judul{
+	font-family: rokkitt-regular;
+	padding-top: 90px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 30px;
+	color: black;
+	padding-left: 40px
+}
+.matris{
+	font-family: rokkitt-regular;
+	padding-top: 30px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+	color: black;
+	float: center;
+	padding-left: 60px;
+}
+.gmatris{
+	padding-left: 60px;
+	float: left;
+}
+.right{
+	padding-left: 400px;
+	color: black;
+	padding-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.alucard{
+	font-family: rokkitt-regular;
+	padding-top: 30px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+	color: black;
+	float: center;
+	padding-left: 60px;
+}
+.galucard{
+	padding-left: 60px;
+	float: left;
+}
+l{
+	padding-left: 30px;
+}
+
+
+m{
+	font-weight: bold;
+	color: #424242;
+	text-align: center;
+	margin-left:-215px;
+	font-size: 20px;
+}
+al{
+	margin-left: 25px;
+}
+fb{
+	padding-left: 95px;
+	margin-bottom:0 auto;
+	font-family: rokkitt-regular;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 80px;
+
+}
+f{
+	margin: -7px;
+	color: #424242;
+	margin-left: -160px;
+	font-style: rokkitt-regular;
+	font-weight: bold;
+	font-size: 20px;
+}
+tw{
+	padding-left: 155px;
+	margin-bottom:0 auto;
+	font-family: rokkitt-regular;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 80px;
+
+}
+t{
+	margin: -7px;
+	color: #424242;
+	margin-left: -160px;
+	font-style: rokkitt-regular;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+im{
+	margin: 0 auto;
+	padding-left: 140px;
+
+}
+
+#work .one{
+	font-weight: normal;
+	text-align: center;
+	font-family: rokkitt-regular;
+	background-image: url(images/bg2.jpg);
+	padding-left: 200px;
+	padding-top: 50px;
+	padding-bottom: 200px; 
+}
+
+.two{
+	font-weight: normal;
+	text-align: center;
+	font-family: rokkitt-regular;
+	background-image: url(images/bg3.jpg);
+	padding-left: 200px;
+	padding-top: 30px;
+	padding-bottom: 200px;
+	margin-top: 50px;
+}
+
+into{
+
+	font-weight: bold;
+	font-size: 45pt;
+	color: white;
+	float: left;
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 70px;
+}
+inti{
+
+	font-weight: bold;
+	font-size: 45pt;
+	color: white;
+	float: left;
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+o{
+	font-weight: normal;
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+	float: left;
+	margin-left: -380px;
+	padding-top: 50px;
+}
+i{
+	font-weight: normal;
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+	float: left;
+	margin-left: -360px;
+	padding-top: 90px;
+}
+mo{
+	border: solid 2px #FFFFFF;
+	color: #FFF;
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	float: left;
+	margin-left: -390px;
+	margin-bottom: -140px;
+	margin-top: 10px;
+
+}
+mo:hover{
+	border: solid 2px #757575;
+	color: #757575;
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	float: left;
+	margin-left: -390px;
+	margin-bottom: -140px;
+	margin-top: 10px;
+}
+mi{
+	border: solid 2px #FFFFFF;
+	color: #FFF;
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	float: left;
+	margin-left: -605px;
+	margin-bottom: -120px;
+	margin-top: 100px;
+}
+mi:hover{
+	border: solid 2px #757575;
+	color: #757575;
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	float: left;
+	margin-left: -605px;
+	margin-bottom: -120px;
+	margin-top: 100px;
+}
+
+
+
+
+#agen{
+	font-family: rokkitt-regular;
+	background-image: url(images/bg4.jpg);
+	margin-top: 50px;
+}
+
+.judulb{
+
+	padding-top: 90px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+	color: #021626;
+	font-family: rokkitt-regular;
+}
+.isi{
+	padding-left: 200px;
+	padding-top: 70px;
+	font-family: rokkitt-regular;
+	display: inline-block;
+	padding-bottom: 40px;
+}
+
+#footer{
+	font-weight: normal;
+	text-align: center;
+	font-family: rokkitt-regular;
+	color: white;
+	background-color: black;
+	padding: 30px;
+	margin-top: 200px;
+}
+z{
+	padding-right: 15px;
+}
+
